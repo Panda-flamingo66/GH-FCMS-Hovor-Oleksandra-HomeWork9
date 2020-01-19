@@ -1,0 +1,65 @@
+@mixin row {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin background-setting {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@mixin btn {
+  text-decoration: none;
+  padding: 15px 60px;
+  border-radius: 50px;
+  border: none;
+  white-space: nowrap;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+@mixin btn-font {
+  font: {
+    family: $main-serif-font;
+    size: 18px;
+    weight: 400;
+  }
+}
+
+@mixin center {
+  padding: 100px 0;
+  text-align: center;
+  @media screen and (max-width: 768px) {
+    padding: 60px 0;
+  }
+}
+
+@mixin item-name {
+  font-family: $main-serif-font;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+@mixin paragraph {
+  font: {
+    family: $main-font;
+    size: 15px;
+    weight: 300;
+  }
+  line-height: 30px;
+}
+
+@mixin form-back {
+  border-radius: 27px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.2);
+}

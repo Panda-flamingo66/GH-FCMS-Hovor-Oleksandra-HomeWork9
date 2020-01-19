@@ -1,0 +1,83 @@
+.about-us-item{
+  display: inline-block;
+  width: 182px;
+  height: 182px;
+  background-color: #edeff0;
+  border-radius: 50%;
+  margin-bottom: 80px;
+
+    &:hover{
+      background-color: #17daa3;
+    }
+    &:hover > .about-us-item-logo{
+      filter: brightness(200%);
+    }
+
+  .about-us-item-logo{
+    display: inline-block;
+    padding-top: 35%;
+  }
+}
+.line{
+  background-color: #17daa3;
+  width: 30px;
+  height: 1px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.example-img{
+  width: 100%;
+  height: auto;
+}
+.map-descriptions{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 36px;
+}
+.our-services-img{
+  display: flex;
+  justify-content: space-between;
+
+    @media (max-width: 550px){
+      display: inline-block;
+      text-align: center;
+    }
+}
+//-----------------------------------Team section
+.team-member-back1{
+  background-color: #e4e4e4;
+}
+.team-member-back2{
+  background-color: #f9f9fa;
+}
+.team-member-back3{
+  background-color: #efefef;
+}
+.team-member{
+  height: 300px;
+  color: transparent;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 120px;
+
+  &:hover{
+    background-color: #2eddac;
+    color: white;
+  }
+}
+//---------------------------------------Map section
+.map-background{
+  background: url("../img/Map.png") no-repeat center top/cover;
+  max-width: 962px;
+  height: auto;
+}
+.main-word-symu{
+  font-weight: 700;
+}
+.title-symu{
+  font-size: 60px;
+  font-weight: 200;
+  color: white;
+}

@@ -1,0 +1,19 @@
+.header {
+  & nav {
+    display: none;
+    & a {
+      text-decoration: none;
+      padding: 0 15px;
+      &:hover,
+      &:active {
+        background: $hover-color;
+        color: $main-color;
+        padding: 10px 15px;
+        border-radius: 25px;
+      }
+    }
+    @media screen and (min-width: 991px) {
+      display: block;
+    }
+  }
+}

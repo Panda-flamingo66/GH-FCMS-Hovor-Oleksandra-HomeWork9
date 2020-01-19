@@ -1,0 +1,51 @@
+header{
+  background: url("../img/background_header.jpg") no-repeat center top/cover;
+}
+.container{
+  max-width: 1470px;
+}
+.about-us{
+  padding-top: 110px;
+}
+.about-us-example-top{
+  background-color: #f9f9fa;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-top: 110px;
+}
+.about-us-example-bottom{
+  background-color: white;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.our-services{
+  background-color: #f9f9fa;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+.our-team{
+  padding-top: 100px;
+}
+.pricing{
+  background-color: #f9f9fa;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.world-map{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.symu{
+  background: url("../img/symu_back.jpg") no-repeat center top/cover;
+  padding-top: 270px;
+  padding-bottom: 270px;
+}
+footer{
+  background: url("../img/footer_back.png") no-repeat center top/cover;
+  background-size: auto;
+  height: 550px;
+  margin: 0 auto;
+  padding-top: 75px;
+}

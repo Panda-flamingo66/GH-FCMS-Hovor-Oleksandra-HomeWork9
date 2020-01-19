@@ -1,0 +1,14 @@
+.main-search-input{
+  display: none;
+}
+.main-search-button{
+  background: url("../img/search.png") no-repeat center top/cover;
+  width: 23px;
+  height: 23px;
+  border: none;
+
+    &:hover{
+      background-color: transparent;
+      opacity: 0.7;
+    }
+}

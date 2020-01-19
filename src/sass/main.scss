@@ -1,0 +1,19 @@
+@import 'utils/variables';
+
+@import "bootstrap";
+
+@import 'base/basic';
+
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'components/main-menu';
+@import 'components/search';
+@import 'components/titles';
+@import 'components/main-components';
+@import 'components/buttons';
+@import 'components/product';
+@import 'components/carousels';
+
+@import 'pages/home';

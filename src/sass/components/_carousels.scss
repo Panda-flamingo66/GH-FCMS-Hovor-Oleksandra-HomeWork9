@@ -1,0 +1,85 @@
+.carousel-item{
+  height: 300px;
+
+  .carousel-title{
+    color: white;
+    text-align: center;
+
+    h2{
+      font-size: 60px;
+      font-weight: 200;
+      letter-spacing: 1.5px;
+      margin-bottom: 20px;
+    }
+    p{
+      font-size: 24px;
+      font-weight: 300;
+    }
+    .main-word{
+      font-weight: 700;
+    }
+  }
+}
+.carousel-indicators{
+  position: relative;
+  margin-top: 40px;
+}
+.carousel-indicators {
+  .active {
+    opacity: 1;
+    background-color: white;
+  }
+  li {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid white;
+    opacity: 1;
+    background-clip: border-box;
+  }
+}
+.carousel-control-prev-icon{
+  background-image: url("../img/arrow.png");
+  width: 27px;
+  height: 53px;
+  margin-top: 40px;
+}
+.carousel-control-next-icon{
+  background-image: url("../img/arrow.png");
+  transform: rotate(180deg);
+  width: 27px;
+  height: 53px;
+  margin-top: 40px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  align-items: normal;
+
+  @media (min-width: 320px) and (max-width: 1150px){
+    display: none;
+  }
+}
+.people-carousel{
+  background: url("../img/people_carousel.jpg") no-repeat center top/cover;
+  padding-top: 180px;
+  padding-bottom: 150px;
+}
+.member-description{
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 35px;
+}
+.member-carousel-title{
+  text-align: center;
+}
+.member-position{
+  font-size: 18px;
+  font-weight: 300;
+  color: #525252;
+  margin-top: 35px;
+}
+.member-main-word{
+  color: #17daa3;
+}

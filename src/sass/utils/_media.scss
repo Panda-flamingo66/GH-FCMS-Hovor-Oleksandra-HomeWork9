@@ -1,0 +1,76 @@
+.header {
+   @media screen and (min-width: 991px) {
+      display: block;
+    }
+}
+.main {
+  & .main-title {
+    @media screen and (max-width: 991px) {
+      margin-top: 0;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    padding-top: 100px;
+  }
+}
+.list-items {
+  @media screen and (max-width: 991px) {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+.cite-navigation {
+  & nav {
+    & .cite-list {
+      @media screen and (min-width: 600px) {
+        column-count: 3;
+      }
+    }
+  }
+}
+.food-description {
+  & .product {
+    & .item-description {
+      @media screen and (max-width: 929px) {
+        flex-basis: 100%;
+        max-width: 450px;
+      }
+    }
+    & img {
+      @media screen and (max-width: 1150px) {
+        max-width: 450px;
+      }
+    }
+    @media screen and (max-width: 930px) {
+      justify-content: center;
+    }
+  }
+}
+.news-letter {
+  & .sign-up {
+    & .input-form {
+      & .email-form {
+        @media screen and (max-width: 400px) {
+          padding-left: 0;
+          margin-bottom: 20px;
+          height: 50px;
+          text-align: center;
+          @include form-back;
+        }
+      }
+      & .sign-up-form {
+      @media screen and (max-width: 400px) {
+        flex-direction: column;
+        border: none;
+        background: none;
+      }
+    }
+  }
+}
+.main {
+  & .main-title {
+    & .title {
+      @media screen and (max-width: 768px) {
+        font-size: 54px;
+      }
+    }

@@ -1,0 +1,23 @@
+.footer-title{
+  display: inline;
+  p{
+    margin-left: 20px;
+    color: #87949e;
+  }
+}
+.footer-menu{
+  li{
+    list-style-type: none;
+    display:inline;
+    margin-right: 50px;
+    a{
+      color: #cdd2d6;
+      font-size: 18px;
+      font-weight: 400;
+
+      &:hover{
+        color: #87949e;
+      }
+    }
+  }
+}
